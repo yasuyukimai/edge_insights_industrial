@@ -1,0 +1,16 @@
+EII:
+    # dev_mode if set to true allows one to run EII in non-secure mode and provides additional UX/DX etc.
+    # dev_mode can be set true or false
+    dev_mode: true
+    # If user wants to remove previous EII containers
+    # Can be set to true/false
+    remove_previous_eii: true
+    
+    # Please populate the below EII DB and UI credentials needed for EII installation. Based on the EII services
+    # coming up, the below credentials would be used
+    etcdroot_password: 1234
+    influxdb_username: 1234
+    influxdb_password: 1234
+    minio_access_key: 1234
+    minio_secret_key: 1234
+    

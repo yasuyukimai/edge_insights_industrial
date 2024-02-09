@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<manifest>
+  <main label="Edge_Insights_for_Industrial" version="4.1.0" id="64e456786e7292cd6f7f8df1" packageId="83098e02-a708-48d0-b319-4ca761c6ba22" osId="60126c55d9555f002a8049fb"/>
+  <default path="installation/common" esb_install="true" label="esb_common" id="6022bd8ccc7449002afdbedd"/>
+  <project path="installation/src" id="64ec68c1160aaed0837f390f" version="4.0.1" label="IEdgeInsights"/>
+  <project path="installation/src" id="64ec4a8a160aaed0837dc37e" version="4.0.1" label="IEdgeInsights/common/util/c"/>
+  <project path="installation/src" id="64ec4c88160aaed0837dd90f" version="4.0.1" label="IEdgeInsights/common/libs/EIIMessageBus"/>
+  <project path="installation/src" id="64ec45c3160aaed0837d82cb" version="4.0.1" label="IEdgeInsights/common/libs/EIIMessageBus/go/EIIMessageBus"/>
+  <project path="installation/src" id="64ec4a21160aaed0837daded" version="4.0.1" label="IEdgeInsights/common/libs/ConfigMgr"/>
+  <project path="installation/src" id="64ec49f3160aaed0837d985c" version="4.0.1" label="IEdgeInsights/common/libs/ConfigMgr/go/ConfigMgr"/>
+  <project path="installation/src" id="64ec414c160aaed0837c8768" version="4.0.1" label="IEdgeInsights/CoreLibs"/>
+  <project path="installation/src" id="64e60c5d160aaed08370918a" version="4.1.1" label="IEdgeInsights/ConfigMgrAgent"/>
+  <project path="installation/src" id="64ec4fb4160aaed0837e043a" version="4.0.1" label="IEdgeInsights/Samples"/>
+  <project path="installation/src" id="64ec432d160aaed0837ce4d5" version="4.0.1" label="IEdgeInsights/common/video"/>
+  <project path="installation/src" id="64e61235160aaed083712151" version="1.1.1" label="IEdgeInsights/EdgeVideoAnalyticsMicroservice"/>
+  <project path="installation/src" id="64e612fb160aaed083714c64" version="4.0.2" label="IEdgeInsights/Visualizer"/>
+  <project path="installation/src" id="64e60ec2160aaed08370fd6b" version="4.2.1" label="IEdgeInsights/DataStore"/>
+  <project path="installation/src" id="64ec4392160aaed0837d0190" version="4.0.1" label="IEdgeInsights/tools"/>
+  <project path="installation/src" id="64ec3ac2160aaed0837be92b" version="4.0.1" label="IEdgeInsights/EdgeToAzureBridge"/>
+  <project path="installation/src" id="64ec451b160aaed0837d5ee2" version="4.0.1" label="IEdgeInsights/OpcuaExport"/>
+  <project path="installation/src" id="64ec44c7160aaed0837d3afb" version="4.0.1" label="IEdgeInsights/RestDataExport"/>
+  <project path="installation/src" id="64ec285c160aaed0837b353f" version="4.0.1" label="IEdgeInsights/ZmqBroker"/>
+  <project path="installation/src" id="64ec3a04160aaed0837bd384" version="4.0.1" label="IEdgeInsights/FactoryControlApp"/>
+  <project path="installation/src" id="64ec3ac2160aaed0837be929" version="4.0.1" label="IEdgeInsights/DeploymentToolFrontend"/>
+  <project path="installation/src" id="64ec3ba9160aaed0837c0d28" version="4.0.1" label="IEdgeInsights/DeploymentToolBackend"/>
+  <project path="installation/src" id="64e61f57160aaed083754f72" version="20.10.6" label="Docker_Community_Edition_CE" esb_install="true"/>
+  <image id="64edc4fa4d0bea207c9462fc" label="intel/edge_video_analytics_microservice" tag="1.1.1"/>
+  <image id="64ed8b440c4be3b06e2854a4" label="intel/multimodal-data-visualization" tag="4.0.2"/>
+  <image id="64f058b5f48a443618d1762d" label="intel/multimodal-data-visualization-streaming" tag="4.0.2"/>
+  <image id="64ed843d0c4be3b06e28544a" label="edgeinsights/ia_datastore" tag="4.2.1"/>
+  <image id="64ed886e0c4be3b06e28547b" label="edgeinsights/ia_zmq_broker" tag="4.0.1"/>
+  <image id="64f81d14f48a443618d1782c" label="intel/edge_to_azure_bridge" tag="4.0.1"/>
+  <image id="64ed8c380c4be3b06e2854b5" label="edgeinsights/ia_azure_simple_subscriber" tag="4.0.1"/>
+  <image id="64edb8b6d6c8943a7b978960" label="edgeinsights/ia_configmgr_agent" tag="4.1.1"/>
+  <image id="64ed8c930c4be3b06e2854c7" label="edgeinsights/ia_opcua_export" tag="4.0.1"/>
+  <image id="64ed8d9f0c4be3b06e28551f" label="edgeinsights/ia_rest_export" tag="4.0.1"/>
+  <project path="installation/src" id="64e6192e160aaed08371bf8f" version="4.1.0" label="manageability"/>
+  <project path="installation/src" id="64e61e85160aaed08374f91e" version="4.1.0" label="eii_installer" esb_install="true"/>
+</manifest>
