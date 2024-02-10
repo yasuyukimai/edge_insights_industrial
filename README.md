@@ -1,1 +1,0 @@
-# edge_insights_industrial
